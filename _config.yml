@@ -1,10 +1,10 @@
 # Site settings
-title: This is a blog
+title: Learn something
 SEOTitle: 阿政的博客 | Allen's Blog
 header-img: img/home-bg.jpg
 email: Tan_Xianzheng@163.com
-description: ""
-keyword: "Learn track"
+description: "一个代码菜鸟的博客"
+keyword: "前端 机器学习 机器视觉 读书 数学"
 url: "https://allenxz.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     Takoff_
+zhihu_username:     人格A
+github_username:    allenxz
 #twitter_username:  huxpro
-facebook_username:  huxpro
+#facebook_username:  huxpro
 
 
 
