@@ -1,6 +1,6 @@
 # Site
-title:              Allen Ta
-bio:                'The blog of a code rookie'
+title:              Allen Tan
+bio:                '随便学点东西，混吃等死'
 description:        "The blog of a code rookie"
 reading_time:       true
 words_per_minute:   200
@@ -38,24 +38,24 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 email:              Tan_XianZheng@163.coom
-twitter:            username
-facebook:           username
-github-url:         username
+#twitter:            username
+#facebook:           username
+github-url:         "https://github.com/allenxz"
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
-#weibo:             username
+#weibo:              username
 #flickr:            username
 #codepen:           username
 #keybase:           username
