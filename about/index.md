@@ -7,8 +7,8 @@ comments: false
 ---
     
 <center>
-    <p>姓名：谭贤政</p><br/>>
-    <p>掌握技能：Vue、C/C++,PHP,Java,微信小程序...</p>
+    <p>就读于东莞理工学院</p><br/>
+    <p>掌握技能：Vue、C/C++,PHP,Java,微信小程序,HTML+CSS+JavaScript...</p>
 </center>
 
 
