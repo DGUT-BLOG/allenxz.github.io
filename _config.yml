@@ -1,6 +1,6 @@
 # Site
 title:              Allen Tan
-bio:                '随便写点东西，混吃等死'
+bio:                '随便写点东西，输出点什么'
 description:        "阿政的博客"
 reading_time:       true
 words_per_minute:   200
@@ -15,15 +15,15 @@ permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
-auto_ids:         true
-footnote_nr:      1
-entity_output:    as_char
-toc_levels:       1..6
-enable_coderay:   true
-mathjax:          true
+auto_ids:           true
+footnote_nr:        1
+entity_output:      as_char
+toc_levels:         1..6
+enable_coderay:     true
+mathjax:            true
 sass:
-sass_dir:         _sass
-style:            compressed
+sass_dir:           _sass
+style:              compressed
 
 # Comments
 disqus_shortname:   taylantatli
@@ -37,7 +37,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              Tan_XianZheng@163.coom
+email:              tan_xianzheng@163.coom
 #twitter:            username
 #facebook:           username
 github-url:         allenxz
