@@ -25,14 +25,14 @@
 2.路由钩子  
 <small>权限控制的函数执行</small>  
 {% highlight code%}
-router.beforeEach(function(to,from,next){...})
---to:到哪个页面去
---from:从哪个页面来
---next：直接放行 or 重定向 or 取消用户导航行为
+router.beforeEach(function(to,from,next){...})  
+--to:到哪个页面去  
+--from:从哪个页面来  
+--next：直接放行 or 重定向 or 取消用户导航行为  
 {% endhighlight %}
 
 具体的代码我写了个小demo，下面可以下载。  
 ①主要有简陋的登录、注册、音乐三个页面。  
 ②默认首页在登陆页面，点击头部的链接会局部刷新，在登录页面的url加上/viper会加载嵌套局部刷新的会员登录页面。  
-③直接在地址栏输入音乐页面的url会提醒你先登录，然后跳转到登录页面
+③直接在地址栏输入音乐页面的url会提醒你先登录，然后跳转到登录页面  
 <a href="../code/v-router.html" download="vue-router">Demo</a>
