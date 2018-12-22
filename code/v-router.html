@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<div id="app"></div>
+
+	<script src="https://cdn.bootcss.com/vue/2.5.21/vue.js"></script>
+	<!-- 1:引入vue-router(核心插件)对象 -->
+	<script src="https://cdn.bootcss.com/vue-router/3.0.2/vue-router.js"></script>
+	<script type="text/javascript">
+		var isLogin = false;
+		var Login = {
+			template: '<div>我是登录页面,下面是嵌套子路由\
+					<router-view></router-view>\
+					</div>',
+			created: function () {
+				isLogin = true;
+			}
+		}
+		var Register = {
+			template: '<div>我是注册页面</div>'
+		}
+		var Music = {
+			template: '<div>我是音樂页面</div>'
+		}
+		var Viper = {
+			template: '<div>我是会员登录页面</div>'
+		}
+
+		//2:安装插件
+		Vue.use(VueRouter);
+		//3:创建一个路由对象
+		//也可以用router.addRoutes，更加灵活
+		var router = new VueRouter({
+			//4.配置路由对象
+			routes: [{
+					name: 'login',
+					path: '/login',
+					component: Login,
+					children: [{
+						name: 'login.viper',
+						path: 'viper',
+						component: Viper
+					}]
+				},
+				{
+					name: 'register',
+					path: '/register',
+					component: Register
+				},
+				{
+					name: 'music',
+					path: '/music',
+					component: Music,
+					//全局路由守卫，給未来路由的权限控制
+					meta: {
+						isChecked: true
+					}
+				},
+				//默认首页路由
+				{
+					path: '/',
+					redirect: {
+						name: 'login'
+					}
+				}
+			]
+		});
+
+		//路由钩子做权限控制
+		router.beforeEach((to, from, next) => {
+			if(!to.meta.isChecked) {
+				next();
+			} else {
+				if (isLogin) {
+					next(); //放行
+				} else {
+					alert("请先登录");
+					//重定向 或 取消用户导航行为next(false)
+					next({
+						name: 'login'
+					});
+				}
+			}
+
+		});
+		//5：指定路由改变局部的位置
+		var App = {
+			template: '<div>\
+			<router-link :to="{name:\'login\'}">登录去</router-link>\
+			<router-link :to="{name:\'register\'}">注册去</router-link>\
+			<router-link :to="{name:\'music\'}">聽歌去</router-link>\
+			<router-view></router-view></div>'
+		}
+		//6:将配置好的路由对象关联到vue实例中
+		new Vue({
+			el: '#app',
+			router: router,
+			components: {
+				app: App
+			},
+			template: '<app/>'
+		});
+	</script>
+</body>
+
+</html>
