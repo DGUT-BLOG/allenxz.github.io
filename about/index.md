@@ -7,8 +7,15 @@ comments: false
 ---
     
 <center>
-    <p>就读于东莞理工学院</p><br/>
-    <p>掌握技能：Vue、C/C++,PHP,Java,微信小程序,HTML+CSS+JavaScript...</p>
+    <label>就读于东莞理工学院</label><br/>
+    <label>掌握技能：</label>
+    <label>Vue</label>
+    <label>C/C++</label>
+    <label>PHP</label>
+    <label>Java</label>
+    <label>微信小程序</label>
+    <label>HTML+CSS+JavaScript</label>
+    <label>opencv</label>
 </center>
 
 
