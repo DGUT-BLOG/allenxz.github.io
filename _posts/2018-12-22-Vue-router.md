@@ -14,7 +14,7 @@
 用途:原本需要局部刷新的区域中还包含着需要局部刷新的区域是需要用到。  
 
 步骤：  
-1.router-view中包含router-view
+1.router-view中包含router-view  
 2.路由规则中包含子路由
 
 ### 前端实现权限控制
