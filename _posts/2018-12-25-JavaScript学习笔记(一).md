@@ -88,8 +88,8 @@ document.getElementById('size-16').onclick = size16;
 
 notices：  
 ```javascript
-x => { foo: x }     × 
-x => ({ foo: x }    √  
+x => { foo: x }     //× 
+x => ({ foo: x }    //√  
 ```
 
 2. 箭头函数完全修复了this的指向，this总是指向词法作用域 
