@@ -87,9 +87,10 @@ document.getElementById('size-16').onclick = size16;
 #### 6.箭头函数  
 
 notices：  
-1.    x => { foo: x }     × 
-
-    x => ({ foo: x }    √  
+```javascript
+x => { foo: x }     × 
+x => ({ foo: x }    √  
+```
 
 2. 箭头函数完全修复了this的指向，this总是指向词法作用域 
 由于this在箭头函数中已经按照词法作用域绑定了，所以，用call()或者apply()调用箭头函数时，无法对this进行绑定，即传入的第一个参数被忽略。
