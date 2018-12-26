@@ -16,11 +16,11 @@ reduce()
 
 `[x1, x2, x3, x4].reduce(f) = f(f(f(x1, x2), x3), x4)`
 
-tips: 
+**tips:** 
 字符转数字->v*1 
-notices: 
-parseInt(string,radix);//radix->按x进制转换 
-Number(value);//仅接受一个参数
+**notices:** 
+parseInt(string,radix); // radix->按x进制转换 
+Number(value); // 仅接收一个参数
 
 #### 3.filter()  
 巧妙去除数组中重复元素  
@@ -29,7 +29,7 @@ Number(value);//仅接受一个参数
 arr.filter(function (element, index, self) {  
     return self.indexOf(element) === index;  
 });  
-key->indexOf元素首次出现的位置
+//key->indexOf元素首次出现的位置
 ```
 
 #### 4.sort()  
@@ -52,7 +52,6 @@ sort会改变Array
 闭包使用例子--普通编程  
 
 ```javascript
-
 function make_pow(n) {  
     return function (x) {  
         return Math.pow(x, n);  
@@ -69,7 +68,6 @@ console.log(pow3(7)); // 343
 闭包使用例子--Web开发  
 
 ```javascript
-
 function makeSizer(size) {
   return function() {
     document.body.style.fontSize = size + 'px';
@@ -90,6 +88,7 @@ document.getElementById('size-16').onclick = size16;
 
 notices：  
 1.    x => { foo: x }     × 
+
     x => ({ foo: x }    √  
 
 2. 箭头函数完全修复了this的指向，this总是指向词法作用域 
