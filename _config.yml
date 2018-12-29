@@ -67,7 +67,7 @@ gitalk:
   enable: true 
   owner: allenxz
   repo: allenxz.github.io
-  admin: allenz
+  admin: allenxz
   clientID: 534322e5bd6acd813c5d
   clientSecret: fb1cdfcd021f9b5d01106de5689b19475a91f9ea
   distractionFreeMode: true
