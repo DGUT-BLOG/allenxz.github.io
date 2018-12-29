@@ -64,7 +64,7 @@ weibo:              Takoff_
 
 #gitalk settings
 gitalk:
-  enable: true #用来做启用判断可以不用
+  enable: true 
   owner: allenxz
   repo: allenxz.github.io
   admin: allenz
