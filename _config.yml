@@ -62,6 +62,15 @@ weibo:              Takoff_
 #xmpp:              username@server.com
 #hackernews:        username
 
+#gitalk settings
+gitalk:
+  enable: true #用来做启用判断可以不用
+  owner: allenxz
+  repo: allenxz.github.io
+  admin: allenz
+  clientID: 534322e5bd6acd813c5d
+  clientSecret: fb1cdfcd021f9b5d01106de5689b19475a91f9ea
+
 # Gems
 gems:
   - jekyll-mentions
