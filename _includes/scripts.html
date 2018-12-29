@@ -30,12 +30,12 @@
             var gitalk = new Gitalk({
 
             // gitalk的主要参数
-                clientID: '{{site.gitalk.clientID}}',
-                clientSecret: '{{site.gitalk.clientSecret}}',
+                clientID: '{{ site.gitalk.clientID }}',
+                clientSecret: '{{ site.gitalk.clientSecret }}',
                 id: window.location.pathname,
-                repo: '{{site.gitalk.repo}}',
-                owner: '{{site.gitalk.owner}}',
-                admin: '{{site.gitalk.admin}}'
+                repo: '{{ site.gitalk.repo }}',
+                owner: '{{ site.gitalk.owner }}',
+                admin: '{{ site.gitalk.admin }}'
             
             });
             gitalk.render('gitalk-container');
