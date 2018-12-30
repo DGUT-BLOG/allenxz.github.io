@@ -57,7 +57,7 @@ $(document).ready(function() {
   });
    // 鼠标点击特效
    $("body").click(function(e) {
-      var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
+      var a = new Array("别点了", "认真学习", "！");
       var $i = $("<span/>").text(a[mouseSum]);
       mouseSum = (mouseSum + 1) % a.length;
       var x = e.pageX,
@@ -68,7 +68,7 @@ $(document).ready(function() {
           "left": x,
           "position": "absolute",
           "font-weight": "bold",
-          "color": "#6651ff"
+          "color": "#b390d0"
       });
       $("body").append($i);
       $i.animate({
