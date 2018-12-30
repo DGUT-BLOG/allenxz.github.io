@@ -16,6 +16,7 @@ $(function() {
 });
 
 // All others
+var mouseSum = 0;
 $(document).ready(function() {
     // zoom in/zoom out animations
     if ($(".container").hasClass('fadeOut')) {
@@ -55,7 +56,6 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
    // 鼠标点击特效
-   var mouseSum = 0;
    $("body").click(function(e) {
       var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
       var $i = $("<span/>").text(a[mouseSum]);
