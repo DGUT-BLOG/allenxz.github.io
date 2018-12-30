@@ -57,7 +57,8 @@ $(document).ready(function() {
   });
    // 鼠标点击特效
    $("body").click(function(e) {
-      var a = new Array("别点了", "认真学习", "！");
+      var a = new Array("(๑•̀ㅂ•́)و✧", "( ‵▽′)ψ", "(oﾟvﾟ)ノ", "ㄟ( ▔, ▔ )ㄏ", "（*゜ー゜*）", 
+      "(。_。)", "ʅ（´◔౪◔）ʃ", "_( ﾟДﾟ)ﾉ", "<(￣︶￣)>", "(｡･∀･)ﾉﾞ", "(。・∀・)ノ", "<(￣ˇ￣)/");
       var $i = $("<span/>").text(a[mouseSum]);
       mouseSum = (mouseSum + 1) % a.length;
       var x = e.pageX,
