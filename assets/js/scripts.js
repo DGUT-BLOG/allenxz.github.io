@@ -56,29 +56,29 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
    // 鼠标点击特效
-   $("body").click(function(e) {
-      var a = new Array("(๑•̀ㅂ•́)و✧", "( ‵▽′)ψ", "(oﾟvﾟ)ノ", "ㄟ( ▔, ▔ )ㄏ", "（*゜ー゜*）", 
-      "(。_。)", "ʅ（´◔౪◔）ʃ", "_( ﾟДﾟ)ﾉ", "<(￣︶￣)>", "(｡･∀･)ﾉﾞ", "(。・∀・)ノ", "<(￣ˇ￣)/");
-      var $i = $("<span/>").text(a[mouseSum]);
-      mouseSum = (mouseSum + 1) % a.length;
-      var x = e.pageX,
-      y = e.pageY;
-      $i.css({
-          "z-index": 9999999,
-          "top": y - 20,
-          "left": x,
-          "position": "absolute",
-          "font-weight": "bold",
-          "color": "#b390d0"
-      });
-      $("body").append($i);
-      $i.animate({
-          "top": y - 180,
-          "opacity": 0
-      },
-      1500,
-      function() {
-          $i.remove();
-      });
-  });
+//    $("body").click(function(e) {
+//       var a = new Array("(๑•̀ㅂ•́)و✧", "( ‵▽′)ψ", "(oﾟvﾟ)ノ", "ㄟ( ▔, ▔ )ㄏ", "（*゜ー゜*）", 
+//       "(。_。)", "ʅ（´◔౪◔）ʃ", "_( ﾟДﾟ)ﾉ", "<(￣︶￣)>", "(｡･∀･)ﾉﾞ", "(。・∀・)ノ", "<(￣ˇ￣)/");
+//       var $i = $("<span/>").text(a[mouseSum]);
+//       mouseSum = (mouseSum + 1) % a.length;
+//       var x = e.pageX,
+//       y = e.pageY;
+//       $i.css({
+//           "z-index": 9999999,
+//           "top": y - 20,
+//           "left": x,
+//           "position": "absolute",
+//           "font-weight": "bold",
+//           "color": "#b390d0"
+//       });
+//       $("body").append($i);
+//       $i.animate({
+//           "top": y - 180,
+//           "opacity": 0
+//       },
+//       1500,
+//       function() {
+//           $i.remove();
+//       });
+//   });
 });
