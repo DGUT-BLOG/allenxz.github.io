@@ -29,10 +29,6 @@ style:              compressed
 # Comments
 disqus_shortname:   taylantatli
 
-# Build settings
-paginate: 5
-paginate_path: "page:num"
-
 # Social
 # if you don't have any of social below, comment the line.
 #google:
@@ -78,11 +74,13 @@ gitalk:
   distractionFreeMode: true
 
 # Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+gems:gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page/:num/"
+  # - jekyll-mentions
+  # - jekyll-feed
+  # - jekyll-sitemap
+  # - jekyll-gist
 
 jekyll-mentions:
     base_url: https://github.com
