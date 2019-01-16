@@ -1,3 +1,13 @@
+---
+layout: post
+title: "JavaScript学习笔记（一）"
+date: 2018-12-25
+tags: [前端,JavaScript]
+comments: true
+---
+
+
+
 >学习廖雪峰老师 JavaScript 教程的系列笔记
 
 #### 1.装饰器
