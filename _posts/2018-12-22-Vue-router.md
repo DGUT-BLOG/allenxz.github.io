@@ -3,6 +3,7 @@ layout: post
 title: "Vue-router"
 date: 2018-12-22
 tags: [前端,Vue]
+feature: /images/in-post/20181222_feature.png
 comments: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "JavaScript学习笔记（二）"
 date: 2018-12-26
 tags: [前端,JavaScript]
+feature: /images/in-post/20181226_feature.png
 comments: true
 ---
 
