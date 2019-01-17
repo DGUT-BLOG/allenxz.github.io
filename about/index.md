@@ -23,7 +23,7 @@ comments: false
 <div id="countdown"></div>
 </div>  
 <!-- typed end -->
-<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery-1.12.0.min.js" type="text/javascript"></script>
 <script src="/assets/js/typed.js" type="text/javascript"></script> 
 <script>
     $(function(){
