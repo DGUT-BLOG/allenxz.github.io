@@ -39,7 +39,7 @@
 	font-size: 21px;
 	line-height: 27px;
 }
-#box{
+#box span{
     color: #e84d49;
     display: inline;
 }
@@ -61,7 +61,7 @@
 <script>
     var boxObj = document.getElementById('box');
     new Typed(boxObj,{
-        strings: ['Allen Tan','a code rookie','moving...'],
+        strings: ['<span>Allen Tan</span>','<span>a code rookie</span>','<span>moving...</span>'],
         typeSpeed:200,
         startDelay: 100,
         loop: true,
