@@ -25,21 +25,33 @@ h2 {
 .type-content {
 	color: rgb(0, 0, 0)
 }
+.type-content header[role="type-title"] {
+	padding-bottom: 44px
+}
+.type-content header[role="type-title"] h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	line-height: 62px;
+	font-weight: 700;
+}
 .type-content p {
 	font-size: 21px;
 	line-height: 27px;
 }
 #box{
     color: #e84d49;
-    display: inline;
+    display: inline
 }
 </style>
 
 <section id="type" class="typed-fade-out">
     <article class="type-content">
+        <header role="type-title">
         <h2>I am
             <div id="box"></div>
         </h2>
+        </header>
         <p>I am a ordinary person.<br/>
         But I like doing something exordinary.
         </p> 
