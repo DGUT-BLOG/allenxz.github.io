@@ -14,7 +14,7 @@ comments: false
     <div role="home-title">
     <h2>I am
         <div id="typed-strings"><span>Allen Tan</span> <span>Code Rookie</span> <span>Moving</span></div>
-        <span id="typed" style="white-space:pre;"></span></h2>
+        <span id="typing" style="white-space:pre;"></span></h2>
     </div>
     <p>I am just a ordinary person<br/>
     But I want to do something extraordinary
@@ -27,7 +27,7 @@ comments: false
 <script src="/assets/js/typed.js" type="text/javascript"></script> 
 <script>
     $(function(){
-        $("#typed").typed({
+        $("#typing").typed({
             stringsElement: $('#typed-strings'),
             typeSpeed: 100,
             backDelay: 1000,
