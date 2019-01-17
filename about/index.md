@@ -7,11 +7,9 @@ comments: false
 ---
 
 <style type="text/css">
-    /* 如果光标没出现，而是出现在下一行，那么就是盒子是块级标签，必须得转换成行内标签 */
     h2 {
         display: inline;
     }
-/* 想让的光标闪动的话，复制下面的代码 */
 .typed-cursor{
     opacity: 1;
     animation: typedjsBlink 0.7s infinite;
@@ -39,7 +37,6 @@ comments: false
 <script>
     var boxObj = document.getElementById('box');
     new Typed(boxObj,{
-        // 注意：输出的可以是标签，将标签当节点运行。比如下面的h2
         strings: ['<h2>我是打印字typed.js<h2>','我是案例一222','我是最后一个打印出来的'],
         typeSpeed:200 // 速度
     });
