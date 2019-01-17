@@ -18,7 +18,7 @@ comments: false
     </header>
     <p>I am just a ordinary person<br/>
     But I want to do something extraordinary
-    <p> 
+    </p>
 </article>
 <div id="countdown"></div>
 </section>  
