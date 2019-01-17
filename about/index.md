@@ -13,7 +13,7 @@ comments: false
 <article class="home-content">
     <header role="home-title">
     <h2>I am
-        <div id="typed-strings"><span>Allen Tan</span> <span>Code Rookie</span> <span>Moving</span> </div>
+        <div id="typed-strings"><span>Allen Tan</span> <span>Code Rookie</span> <span>Moving</span></div>
         <span id="typed" style="white-space:pre;"></span></h2>
     </header>
     <p>I am just a ordinary person<br/>

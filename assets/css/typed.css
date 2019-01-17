@@ -1,20 +1,20 @@
-article.home-content {
+.home-content {
 	color: #FFF
 }
-article.home-content header[role="home-title"] {
+.home-content header[role="home-title"] {
 	padding-bottom: 44px
 }
-article.home-content header[role="home-title"] h2 {
+.home-content header[role="home-title"] h2 {
 	margin: 0;
 	padding: 0;
 	font-size: 60px;
 	line-height: 62px;
 	font-weight: 700;
 }
-article.home-content header[role="home-title"] h2 > span {
+.home-content header[role="home-title"] h2 > span {
 	color: #e84d49;
 }
-article.home-content p {
+.home-content p {
 	font-size: 21px;
 	line-height: 27px;
 }
