@@ -23,7 +23,7 @@ comments: false
 <div id="countdown"></div>
 </div>  
 <!-- typed end -->
-<script src="/assets/js/jquery-1.12.0.min.js" type="text/javascript"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
 <script src="/assets/js/typed.js" type="text/javascript"></script> 
 <script>
     $(function(){
